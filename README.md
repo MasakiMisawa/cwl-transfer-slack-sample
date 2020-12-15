@@ -1,4 +1,4 @@
-# cwl--transfer-slack-sample  
+# cwl-transfer-slack-sample  
 
 1. [What is?](#what-is?)  
 1. [Architecture.](#architecture)　　
