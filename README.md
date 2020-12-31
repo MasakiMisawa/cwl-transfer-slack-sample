@@ -24,9 +24,16 @@ $ terraform init
 $ terraform apply
 ```  
   
-1. CloudWatch Logsから転送されたログ内容の解凍用Lambda function作成  
+2. CloudWatch Logsから転送されたログ内容の解凍用Lambda function作成  
 ```
 $ cd src/resource/kinesis/firehose/processor
+$ terraform init
+$ terraform apply
+```  
+  
+3. KinesisFirehose作成  
+```
+$ cd src/resource/kinesis/firehose
 $ terraform init
 $ terraform apply
 ```
