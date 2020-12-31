@@ -44,4 +44,12 @@ $ cd src/ops/cwl/subscription_filter
 $ terraform init
 * locals.tfのlog_group_nameを任意のロググループ名に書き換えて保存 *
 $ terraform apply
+```  
+  
+5. パラメータストアの作成とログ転送先SlackチャネルのIncomming webhook URL保存  
+```
+$ cd src/resource/ssm/parameter_store
+$ terraform init
+$ terraform apply
+* 作成したパラメータストアにログ転送先SlackチャネルのIncomming webhook URLを保存 *
 ```
