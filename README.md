@@ -6,7 +6,7 @@
   
 ## What is?  
 CloudWatch Logsに出力されたログ本文をSlackに転送させる為のアーキテクチャを作成する為のサンプルコードです。  
-詳細は、[この記事](https://masakimisawa.com/cwl-to-slack)をご参照ください。  
+詳細は、[この記事](https://masakimisawa.com/cwl-transfer-slack)をご参照ください。  
 
 ## Architecture　　
 全体構成です。  
