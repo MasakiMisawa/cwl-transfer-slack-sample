@@ -7,7 +7,7 @@ data "aws_iam_policy_document" "cwl_compress_to_kinesis_lambda_iam_policy" {
       "firehose:PutRecord",
       "firehose:PutRecordBatch"
     ]
-    resources = ["arn:aws:firehose:ap-northeast-1:${data.aws_caller_identity.self.account_id}:deliverystream/cwl-transfer-slack-sample-stream"]
+    resources = ["arn:aws:firehose:ap-northeast-1:${data.aws_caller_identity.self.account_id}:deliverystream/cwl-transfer-s3-sample-stream"]
   }
 
   statement {
