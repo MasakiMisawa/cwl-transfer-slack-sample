@@ -52,4 +52,11 @@ $ cd src/resource/ssm/parameter_store
 $ terraform init
 $ terraform apply
 * 作成したパラメータストアにログ転送先SlackチャネルのIncomming webhook URLを保存 *
+```  
+  
+6. Slackにログ転送するLambda function作成  
+```
+$ cd src/ops/lambda
+$ terraform init
+$ terraform apply
 ```
