@@ -36,4 +36,12 @@ $ terraform apply
 $ cd src/resource/kinesis/firehose
 $ terraform init
 $ terraform apply
+```  
+  
+4. CloudWatch Logsのロググループに対してサブスクリプションフィルタ作成  
+```
+$ cd src/ops/cwl/subscription_filter
+$ terraform init
+* locals.tfのlog_group_nameを任意のロググループ名に書き換えて保存 *
+$ terraform apply
 ```
