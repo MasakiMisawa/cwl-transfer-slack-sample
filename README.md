@@ -22,4 +22,11 @@ $ cd src/resource/s3
 $ terraform init
 * locals.tfのbucketを任意のバケット名に書き換えて保存 *
 $ terraform apply
+```  
+  
+1. CloudWatch Logsから転送されたログ内容の解凍用Lambda function作成  
+```
+$ cd src/resource/kinesis/firehose/processor
+$ terraform init
+$ terraform apply
 ```
